@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="Style.css">
+        <title>Website Book Haven</title>
+    </head>
+    <header>
+        <h1><center>Book Haven</center></h1>
+        <p><center>By: Alya</center></p>
+        <p><center>Menyediakan Sewa buku</center></p>
+        <nav>
+        <ul>
+            <li>
+                <a href="koleksi.html">[List Koleksi Buku]</a>
+            </li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="input">
+        <center><p>Sewa Buku</p></center>
+        <form method="post" action="tampilan.php">
+                <label for="nama">Nama: </label>
+                <input type="text" id="nama" name="nama"><br> 
+                <label for="nomor">No Telpon: </label>
+                <input type="tel" id="nomor" name="nomor"><br>
+                <label for="buku">Buku(Cek di List): </label>
+                <input type="text" id="buku" name="buku"><br>
+                <label for="nama">Tanggal Pinjam: </label>
+                <input type="date" id="tgl" name="tgl"><br>
+                <button type="submit">Simpan</button>
+        </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,44 @@
+header {
+    padding: 10px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-family: "Staatliches", cursive;
+}
+
+nav ul {
+    list-style: none;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+main {
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    display: grid;
+
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+a.link {
+    color: black;
+}
